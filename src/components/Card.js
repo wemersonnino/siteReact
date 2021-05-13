@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 const Card = () =>{
     return(
         <>
@@ -10,7 +11,7 @@ const Card = () =>{
                 <div className="detalhes">
                     <h3>Padrões para Kubernetes</h3>
                     <p>O modo como os ...</p>
-                    <a href="#">Leia mais &gt;</a>
+                    <Link to="/">Leia mais &gt;</Link>
                 </div>
             </div>
         </>
