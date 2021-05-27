@@ -7,7 +7,8 @@ const Livro = ({ livro }) => (
             <div className="livro">
                 <img
                     src={"/imagens/capas/" + livro.id + ".jpg"}
-                    alt="Thumbnail da capa do livro ..."
+                    alt={livro.titulo}
+                    title={livro.titulo}
                 />
                 <ul>
                     <li>ISBN: {livro.isbn}</li>
